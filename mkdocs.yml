@@ -1,7 +1,7 @@
 site_name: Auditium
 site_author: Auditium
 copyright: Copyright &copy; 2025 Auditium
-site_url: https://auditium.github.io/
+site_url: https://auditium.github.io
 
 theme:
   name: material
@@ -23,9 +23,9 @@ theme:
   language: en
   custom_dir: overrides
   favicon: img/logo.svg
-  # icon:
-  #   logo: logo
-  #   repo: repo
+  icon:
+    logo: logo
+    repo: repo
   features:
     - search.suggest
     - search.highlight
