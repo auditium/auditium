@@ -292,6 +292,11 @@ div.main .nav-content {
 	font-weight: 500;
 }
 
+.hero-subtext-bold {
+	font-weight: 700 !important;
+	font-size: 18px;
+}
+
 .flexbox-2-col {
 	grid-column-gap: 24px;
 	grid-row-gap: 24px;
