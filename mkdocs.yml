@@ -47,11 +47,11 @@ theme:
 
 nav:
   - Home: index.md
-  - Learn:
-      - EVM: learn/index.md
-      - Overview: learn/endpoints.md
-      - Releases:
-        - Etrog upgrade: learn/overview.md
+  # - Learn:
+  #     - EVM: learn/index.md
+  #     - Overview: learn/endpoints.md
+  #     - Releases:
+  #       - Etrog upgrade: learn/overview.md
 
 extra:
   generator: false
