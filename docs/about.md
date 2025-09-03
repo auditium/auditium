@@ -6,7 +6,8 @@ At Auditium, our mission is to strengthen the blockchain ecosystem by empowering
 
 Founded by a team of dedicated security researchers, Auditium emerged from years of auditing numerous blockchain projects and studying zero-day vulnerabilities in Layer 1 and Layer 2 blockchains. Our work revealed a critical gap in the ecosystem: while third-party audits and bug bounties are essential, relying solely on them for every feature or update can be resource-intensive and inefficient. Projects with numerous vulnerabilities or unclear requirements, assumptions, and threat models can complicate audits, reducing their effectiveness and leaving critical issues unaddressed. We realized that secure development must begin at the earliest stages, with developers equipped to build robust protocols from the ground up.
 
-This insight drives Auditium’s mission: to make the discovery and exploitation of security vulnerabilities exponentially more difficult, ensuring a safer and more resilient Web3 for everyone.
+We recognized that the key to a safer Web3 lies in prevention, not just remediation. Secure development must start at the beginning, with developers equipped with the knowledge, tools, and resources to build robust protocols from the ground up. This realization inspired Auditium’s mission: to make the discovery and exploitation of security vulnerabilities exponentially more difficult, ensuring the blockchain ecosystem is safer and more resilient for everyone.
+
 
 ## Our Approach: Education, Tools, and Research
 
