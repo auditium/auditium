@@ -84,6 +84,83 @@
 		background-color: #2a2a2a !important;
 		color: var(--teal) !important;
 	}
+
+	/* Fix gray text colors for dark theme */
+	.feature-paragraph {
+		color: #e5e7eb !important;
+	}
+	
+	div.main p {
+		color: #e5e7eb !important;
+	}
+	
+	div.main div.flexbox a {
+		color: #e5e7eb !important;
+	}
+	
+	div.main .nav-link {
+		color: #e5e7eb !important;
+	}
+	
+	div.main .nav-link:hover {
+		color: var(--teal) !important;
+	}
+	
+	/* Fix tab navigation for dark theme */
+	.md-tabs {
+		background-color: #1a1a1a !important;
+		border-bottom: 1px solid #333 !important;
+	}
+	
+	.md-tabs__link {
+		color: #e5e7eb !important;
+	}
+	
+	.md-tabs__link:hover {
+		color: var(--teal) !important;
+	}
+	
+	.md-tabs__item--active .md-tabs__link {
+		color: var(--teal) !important;
+	}
+	
+	/* Fix header and navigation for dark theme */
+	.md-header {
+		background-color: #1a1a1a !important;
+	}
+	
+	.md-header__title {
+		color: #e5e7eb !important;
+	}
+	
+	.md-header__source {
+		color: #e5e7eb !important;
+	}
+	
+	/* Fix tab navigation area for dark theme */
+	.md-tabs__list {
+		background-color: #1a1a1a !important;
+	}
+	
+	.md-tabs__item {
+		background-color: #1a1a1a !important;
+	}
+	
+	/* Ensure logo and site name are visible in dark theme */
+	.md-header__button {
+		color: #e5e7eb !important;
+	}
+	
+	.md-header__button:hover {
+		color: var(--teal) !important;
+	}
+	
+	/* Fix any remaining gray text in dark theme */
+	.text-gray-600,
+	.text-gray-700,
+	.text-gray-800 {
+		color: #e5e7eb !important;
+	}
 }
 /** END OF COLOR SCHEMES **/
 

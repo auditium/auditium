@@ -225,3 +225,19 @@
 		grid-row-gap: 16px;
 	}
 }
+
+/* Mobile dark theme text fixes */
+@media screen and (max-width: 767px) {
+	[data-md-color-scheme="slate"] .hero-subtext,
+	[data-md-color-scheme="slate"] .hero-subtext-bold {
+		color: #e5e7eb !important;
+	}
+	
+	[data-md-color-scheme="slate"] .feature-paragraph {
+		color: #e5e7eb !important;
+	}
+	
+	[data-md-color-scheme="slate"] div.main p {
+		color: #e5e7eb !important;
+	}
+}
