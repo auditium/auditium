@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+    <!-- Add your custom meta tags here -->
+    <link rel="icon" type="image/svg+xml" href="{{ config.site_url or base_url }}img/logo.svg?v=4">
+    <link rel="shortcut icon" type="image/svg+xml" href="{{ config.site_url or base_url }}img/logo.svg?v=4">
+    <link rel="apple-touch-icon" href="{{ config.site_url or base_url }}img/logo.svg?v=4">
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <!-- Add your custom scripts here -->
+{% endblock %}

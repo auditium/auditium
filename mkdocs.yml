@@ -1,0 +1,158 @@
+site_name: Auditium
+site_author: Auditium
+copyright: Copyright &copy; 2025 Auditium
+site_url: https://auditium.github.io/
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for dark mode (default)
+    - scheme: slate
+      primary: black
+      accent: teal
+      # toggle:
+      #   icon: material/eye-outline
+      #   name: Switch to light mode
+    # Palette toggle for light mode
+    - scheme: default
+      primary: white
+      accent: teal
+      # toggle:
+      #   icon: material/eye
+      #   name: Switch to dark mode
+  language: en
+  custom_dir: overrides
+  favicon: img/logo.svg
+  # icon:
+  #   logo: logo
+  #   repo: repo
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    #- navigation.instant
+    #- navigation.instant.progress
+    - navigation.tracking
+    - navigation.integration
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - content.code.copy
+ 
+
+nav:
+  - Home: index.md
+  - Learn:
+      - EVM: learn/index.md
+      - Overview: learn/endpoints.md
+      - Releases:
+        - Etrog upgrade: learn/overview.md
+
+extra:
+  generator: false
+  analytics:
+    provider: custom
+    property: google
+  social:
+    # - icon: fontawesome/solid/circle-question
+    #   link: 
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/Auditium_io
+    - icon: fontawesome/brands/github
+      link: https://github.com/auditium
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+extra_css:
+  - _site_essentials/stylesheets/extra.css
+  - _site_essentials/stylesheets/animated-hero.css
+  - https://fonts.googleapis.com/icon?family=Material+Icons
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      permalink_title: Link to this section
+      toc_depth: 4
+  - codehilite
+  - markdown_include.include:
+      base_path: docs
+  - admonition
+  - footnotes
+  - def_list
+  - attr_list
+  #- md_in_html
+  - abbr
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.keys
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.caret
+  - meta
+  - smarty
+  - pymdownx.extra:
+      pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - multirepo:
+      cleanup: true
+      keep_docs_dir: false
+  - search
+  - open-in-new-tab
+  - swagger-ui-tag
+  - redirects:
+      redirect_maps:
+        'docs/develop/network-details/network.md': 'cdk/index.md'
+        'cdk/getting-started/index.md': 'cdk/getting-started/local-deployment.md'
+        'zkEVM/how-to/index.md': 'zkEVM/get-started/index.md'
+        'cdk/concepts/index.md': 'cdk/concepts/layer2s.md'
+        'tools/matic-js/installation.md': 'tools/matic-js/get-started.md'
+        'pos/how-to/access-node.md': 'tools/dApp-development/tutorials/access-node.md'
+        'pos/how-to/full-node/full-node-system-requirements.md': 'pos/how-to/prerequisites.md'
+        'pos/how-to/validator/prerequisites.md': 'pos/how-to/prerequisites.md'
+        'pos/how-to/validator/validator-system-requirements.md': 'pos/how-to/prerequisites.md'
+        'pos/how-to/choose-node-type.md': 'pos/how-to/prerequisites.md'
+        'pos/how-to/operate-validator-node/validator-best-practices.md': 'pos/how-to/validator/validator-best-practices.md'
+        'pos/how-to/operate-validator-node/validator-commission-operations.md': 'pos/how-to/operate-validator-node/next-steps.md'
+        'pos/how-to/operate-validator-node/validator-staking-operations.md': 'pos/how-to/operate-validator-node/next-steps.md'
+        'pos/how-to/operating/validator-node/index.md': 'pos/how-to/operate-validator-node/next-steps.md'
+        'cdk/version-matrix/index.md': 'index.md'
+
+validation:
+  absolute_links: warn
+  anchors: warn
+
+extra_javascript:
+  - _site_essentials/js/animated-hero.js
+  - _site_essentials/js/counting-animation.js
+  - _site_essentials/js/clients-hover.js
+  - _site_essentials/js/mathjax.js
+  - https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?version=4.8.0
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
