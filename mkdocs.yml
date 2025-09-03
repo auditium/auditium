@@ -47,6 +47,7 @@ theme:
 
 nav:
   - Home: index.md
+  - About: about.md
   # - Learn:
   #     - EVM: learn/index.md
   #     - Overview: learn/endpoints.md
@@ -63,8 +64,8 @@ extra:
     #   link: 
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/Auditium_io
-    - icon: fontawesome/brands/github
-      link: https://github.com/auditium
+    # - icon: fontawesome/brands/github
+    #   link: https://github.com/auditium
   consent:
     title: Cookie consent
     description: >-

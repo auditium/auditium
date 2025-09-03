@@ -24,7 +24,7 @@ hide:
 					<div class="hero-left">
 						<h1 class="hero-heading">Auditium</h1>
 						<p class="hero-subtext hero-subtext-bold">We Turn Developers into Security Researchers.</p>
-						<p class="hero-subtext"> Build and ship more secure chains and decentralized applications.
+						<p class="hero-subtext"> Build and ship secure chains and decentralized applications.
 Learn through hands-on labs, exploit write-ups, checklists, and open playbooks. Audit with us, practice on real bugs, and ship code that’s verifiably secure.</p>
 					</div>
 					<div class="hero-right">
