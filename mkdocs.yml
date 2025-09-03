@@ -22,7 +22,7 @@ theme:
       #   name: Switch to dark mode
   language: en
   custom_dir: overrides
-  favicon: img/logo.svg
+  favicon: logo-icon.png
   icon:
     logo: logo
     repo: repo
